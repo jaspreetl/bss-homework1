@@ -1,0 +1,14 @@
+cd
+cd desktop/bss-homework1
+history
+echo history
+cat history
+cat $histfile
+ls -alh -t --color=auto
+cat $HISTFILE
+history -w
+cat $HISTFILE
+history -w
+export HISTFILE=~/.bash_history 
+history -a
+ls -alh -t --color=auto
