@@ -12,3 +12,51 @@ history -w
 export HISTFILE=~/.bash_history 
 history -a
 ls -alh -t --color=auto
+cat $HISTFILE
+export HISTFILE=~/.bash_history
+source ~/.bashrc
+ls
+echo 'export HISTFILE=~/.bash_history' >> ~/.bashrc
+cd desktop/bss-homework1
+ls
+echo 'export HISTFILE=~/.bash_history' >> ~/.bashrc
+vi marcopolo.sh
+marco
+vi marcopolo.sh
+source users/jaspreetl/desktop/bss-homework1
+source users/jaspreetl/desktop/bss-homework1/marcopolo.sh
+source marcopolo.sh
+marco
+vi marcopolo.sh
+cd ..
+polo
+git init
+git commit -m "history and marcopolo files"
+git add ..
+git add .
+git commit -m "history and marcopolo files"
+git branch -M main
+git remote add origin https://github.com/jaspreetl/bss-homework1.git
+git push -u origin main
+vi quarks
+git add .
+git commit -m "Add light quarks"
+git push
+git switch merge-conflict
+git switch -c merge-conflict
+vi quarks
+git add .
+git -m commit "heavy quarks"
+git commit "heavy quarks"
+git commit -m "Add heavy quarks"
+git checkout main
+vi quarks
+vi quarks
+git commit -m "somewhat heavy quarks"
+git add .
+git commit -m "somewhat heavy quarks"
+git switch merge-conflict
+git push
+git push --set-upstream origin merge-conflict
+git checkout main
+git push
